@@ -185,7 +185,12 @@ def main():
 
     args=p.parse_args()
     if not args.cmd:
-        p.print_help()
+        print("XVGU Signal Tower Controller (Unofficial)")
+        print("Usage: python xvgu.py <command> [options]\n")
+        print("Available commands:")
+        print("  ledset   Control LED lights")
+        print("  buzzer   Control buzzer\n")
+        print("Run 'python xvgu.py <command> -h' for details on each command.")
         return
 
     dev,ep_out,ep_in=open_dev()
