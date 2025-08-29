@@ -48,7 +48,7 @@ root.title("XVGU Controller")
 
 # --- Light Control UI ---
 for layer in layers:
-    frame = tk.LabelFrame(root, text=f"{layer} Layer Control")
+    frame = tk.LabelFrame(root, text=f"Layer {layer} Control")
     frame.pack(padx=10, pady=5, fill="x")
 
     color_var = tk.StringVar(value="hot_pink")
