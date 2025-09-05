@@ -67,20 +67,6 @@ python3 xvgu_gui.py
 
 This opens a graphical interface to control lights and buzzer.
 
-### 6. (Optional) Autostart GUI on boot
-
-``` bash
-crontab -e
-```
-
-Add the following line:
-
-``` bash
-@reboot python3 /home/pi/your-folder/xvgu_gui.py &
-```
-
-Replace `/home/pi/your-folder/` with the actual script path.
-
 ------------------------------------------------------------------------
 
 ## Device Info
