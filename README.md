@@ -9,7 +9,7 @@ towers from a Raspberry Pi.
 > ⚠️ This project is an independent implementation and **not affiliated
 > with Schneider Electric**.
 
-[Watch the XVGU Tower in Pink (demo video)](https://github.com/zeninputfail/xvgu-controller/blob/main/001.mp4)
+[Watch the XVGU Tower in Pink (demo video)](https://x.com/zensynth/status/1962495377539793040)
 
 ------------------------------------------------------------------------
 
