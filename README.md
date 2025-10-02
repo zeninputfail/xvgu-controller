@@ -9,7 +9,7 @@ towers from a Raspberry Pi.
 > ⚠️ This project is an independent implementation and **not affiliated
 > with Schneider Electric**.
 
-![XVGU Tower in Pink](path-to-your-uploaded-image.jpg)
+![XVGU Tower in Pink](https://github.com/zeninputfail/xvgu-controller/blob/main/001.mp4)
 
 ------------------------------------------------------------------------
 
