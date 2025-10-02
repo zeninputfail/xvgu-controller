@@ -9,6 +9,7 @@ towers from a Raspberry Pi.
 > ⚠️ This project is an independent implementation and **not affiliated
 > with Schneider Electric**.
 
+![XVGU Tower in Pink](path-to-your-uploaded-image.jpg)
 ------------------------------------------------------------------------
 
 ## Files
@@ -18,6 +19,11 @@ towers from a Raspberry Pi.
 -   `99-xvgu.rules` --- udev rule to allow USB access without sudo
 
 ------------------------------------------------------------------------
+## About
+
+This project controls Schneider Electric Pro-face XVGU USB signal towers using Python on Raspberry Pi. For a detailed walkthrough, development background, and examples (including CO₂ monitoring integration), check out the full article on Qiita: [USBパトライト (EZタワーライト/Schneider XVGU) をPythonから制御してみた](https://qiita.com/zeninputfail/items/863bebec9e354a6eb484).
+
+No website or topics provided beyond this.
 
 ## Installation and Usage (Raspberry Pi 5)
 
