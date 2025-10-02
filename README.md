@@ -79,6 +79,7 @@ python3 xvgu_gui.py
 ```
 
 This opens a graphical interface to control lights and buzzer.
+![GUI](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F4138666%2F12285ea0-14ca-4ad7-ae3f-15a673befb37.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=7c65d87cf8211c76ff78aaaea5ffc2fa)
 
 ------------------------------------------------------------------------
 
