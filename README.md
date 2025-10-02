@@ -10,6 +10,7 @@ towers from a Raspberry Pi.
 > with Schneider Electric**.
 
 ![XVGU Tower in Pink](path-to-your-uploaded-image.jpg)
+
 ------------------------------------------------------------------------
 
 ## Files
@@ -19,11 +20,17 @@ towers from a Raspberry Pi.
 -   `99-xvgu.rules` --- udev rule to allow USB access without sudo
 
 ------------------------------------------------------------------------
+
 ## About
 
-This project controls Schneider Electric Pro-face XVGU USB signal towers using Python on Raspberry Pi. For a detailed walkthrough, development background, and examples (including CO₂ monitoring integration), check out the full article on Qiita: [USBパトライト (EZタワーライト/Schneider XVGU) をPythonから制御してみた](https://qiita.com/zeninputfail/items/863bebec9e354a6eb484).
+This project controls Schneider Electric Pro-face XVGU USB signal towers using Python on Raspberry Pi.
+
+For a detailed walkthrough, development background, and examples (including CO₂ monitoring integration), 
+check out the full article on Qiita: [USBパトライト (EZタワーライト/Schneider XVGU) をPythonから制御してみた](https://qiita.com/zeninputfail/items/863bebec9e354a6eb484).
 
 No website or topics provided beyond this.
+
+------------------------------------------------------------------------
 
 ## Installation and Usage (Raspberry Pi 5)
 
@@ -33,7 +40,7 @@ Plug the XVGU signal tower into a USB port on your Raspberry Pi.
 
 ### 2. Install dependencies
 
-``` bash
+```bash
 sudo apt update
 sudo apt install -y python3-tk libusb-1.0-0 python3-pip
 pip3 install pyusb
@@ -41,7 +48,7 @@ pip3 install pyusb
 
 ### 3. Set up USB permissions
 
-``` bash
+```bash
 sudo cp 99-xvgu.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
@@ -51,7 +58,7 @@ Then unplug and reconnect the XVGU device.
 
 ### 4. Run a test (CLI)
 
-``` bash
+```bash
 # Turn on red on layer ONE
 python3 xvgu.py ledset --layer ONE --name red --pattern ON
 
@@ -67,7 +74,7 @@ python3 xvgu.py buzzer --off
 
 ### 5. Launch the GUI
 
-``` bash
+```bash
 python3 xvgu_gui.py
 ```
 
@@ -77,8 +84,9 @@ This opens a graphical interface to control lights and buzzer.
 
 ## Device Info
 
-The tool communicates with the XVGU device using: - **VID:** `0x16DE` -
-**PID:** `0x000C`
+The tool communicates with the XVGU device using: 
+- **VID:** `0x16DE`
+- **PID:** `0x000C`
 
 ------------------------------------------------------------------------
 
@@ -90,8 +98,7 @@ MIT License
 
 ## Disclaimer
 
-This project is an independent implementation.\
+This project is an independent implementation.  
 It is not affiliated with or endorsed by Schneider Electric or Pro-face.
 
-**Schneider Electric** and **Pro-face** are trademarks of their
-respective owners.
+**Schneider Electric** and **Pro-face** are trademarks of their respective owners.
